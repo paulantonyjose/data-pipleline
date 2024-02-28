@@ -1,0 +1,6 @@
+"booking_id,customer_id,booking_date,destination,number_of_passengers,cost_per_passenger"
+"1,1,2024-02-28,Goa,2,5000"
+"2,2,2024-02-27,Kerala,1,3000"
+"3,3,2024-02-26,Andaman,4,7000"
+"4,4,2024-02-25,Manali,3,4000"
+"5,5,2024-02-24,Darjeeling,2,2500"

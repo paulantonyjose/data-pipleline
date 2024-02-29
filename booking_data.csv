@@ -1,6 +1,6 @@
 booking_id,customer_id,booking_date,destination,number_of_passengers,cost_per_passenger
+5,5,20240224,Darjeeling,2,2500
 1,1,20240228,Goa,2,5000
 2,2,20240227,Kerala,1,3000
 3,3,20240226,Andaman,4,7000
 4,4,20240225,Manali,3,4000
-5,5,20240224,Darjeeling,2,2500

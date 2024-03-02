@@ -2,6 +2,7 @@ import functions_framework
 import pandas as pd
 from google.cloud import storage
 import os
+# Uncomment for testing
 # os.environ["GCLOUD_PROJECT"] = "INSERT NAME OF YOUR PROJECT"
 
 # Triggered by a change in a storage bucket

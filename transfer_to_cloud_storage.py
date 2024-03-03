@@ -11,38 +11,38 @@ def transfer_to_cloud_storage():
         password="password"
     )
 
-    # # Open a cursor to perform database operations
-    # cur = conn.cursor()
+    # Open a cursor to perform database operations
+    cur = conn.cursor()
 
-    # cur.execute("SELECT * FROM customers")
-    # customers_data = cur.fetchall()
-    # with open('customers.csv', 'w', newline='') as file:
-    #     writer = csv.writer(file)
+    cur.execute("SELECT * FROM customers")
+    customers_data = cur.fetchall()
+    with open('customers.csv', 'w', newline='') as file:
+        writer = csv.writer(file)
         
-    #     writer.writerow([i[0] for i in cur.description])
+        writer.writerow([i[0] for i in cur.description])
 
-    #     writer.writerows(customers_data)
+        writer.writerows(customers_data)
 
-    # cur.execute("SELECT * FROM bookings")
-    # bookings_data = cur.fetchall()
-    # with open('bookings.csv', 'w', newline='') as file:
-    #     writer = csv.writer(file)
+    cur.execute("SELECT * FROM bookings")
+    bookings_data = cur.fetchall()
+    with open('bookings.csv', 'w', newline='') as file:
+        writer = csv.writer(file)
         
-    #     writer.writerow([i[0] for i in cur.description])
+        writer.writerow([i[0] for i in cur.description])
 
-    #     writer.writerows(bookings_data)
+        writer.writerows(bookings_data)
 
-    # cur.execute("SELECT * FROM destinations")
-    # destinations_data = cur.fetchall()
-    # with open('destinations.csv', 'w', newline='') as file:
-    #     writer = csv.writer(file)
+    cur.execute("SELECT * FROM destinations")
+    destinations_data = cur.fetchall()
+    with open('destinations.csv', 'w', newline='') as file:
+        writer = csv.writer(file)
         
-    #     writer.writerow([i[0] for i in cur.description])
+        writer.writerow([i[0] for i in cur.description])
 
-    #     writer.writerows(destinations_data)
+        writer.writerows(destinations_data)
         
-    # cur.close()
-    # conn.close()
+    cur.close()
+    conn.close()
 
 
     storage_client = Client()

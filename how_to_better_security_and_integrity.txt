@@ -1,7 +1,0 @@
-Only give access control to people the organization trusts.
-Object related access control: which can avoid modifications if the same bucket used for multiple use cases.
-Using servers in the only locations that are most accessed which can reduce costs.
-We can also backup past versions using object versioning therefore to avoid data loss, if data is lost in a  new upload.
-In this particular instance for to get the latest stats in the fastest time possible, we must trigger google cloud function on new object creation and access the newly created object
-to aggregate and summarize the net stats of our total records.  
-Use of encryption can also be used if we want even more security.

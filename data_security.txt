@@ -1,0 +1,19 @@
+
+Implement data validation within the system to ensure that incoming data meets the required formats 
+ and standards before processing or storing it
+Enforce access control to only a few people, this will help in case of a security breach. 
+Object related access 
+control: which can avoid modifications if the same bucket used for multiple use cases. 
+Using servers in the only locations that are most accessed which can reduce costs and increase accessibility. 
+We can also backup past versions using object versioning as a way for audit logs to perform out root cause analysis in case of data 
+integrity issues. 
+To get latest updates of the csv files, new object creation will trigger the google cloud 
+function. 
+Authentication credentials can be securely stored in AWS Secrets Manager or Azure Key Vault to make 
+things more secure. 
+Ensure encryption is enabled and managed properly, and use secure protocols like HTTPS, SSL, 
+or TLS 
+Data sanitization can be used to avoid injection attacks.
+API Gateways can be used for rate limiting and authentication.
+Scalable databases : Ensure scaled database so that data integrity is maintained or use out of the box scalable dbs 
+like mongodb.
